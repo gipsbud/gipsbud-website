@@ -1,17 +1,17 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients recieve an obligation free consultation.",
+    "title": "Доступные цены",
+    "description": "Проявляя лояльность к клиентам в экономически непростое время, мы существенно снизили цены на наши услуги",
     "image": "images/features/noun_branding_1885335.svg"
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "Высокое качество",
+    "description": "С нами вопрос о создании комфорта и уюта в вашем доме будет решён с профессиональным подходом и на высоком уровне",
     "image": "images/features/noun_The Process_1885341.svg"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "Кратчайшие сроки",
+    "description": "Благодаря большому опыт в сфере ремонтно–строительных работ мы выполним Ваш заказ в кратчайшие сроки",
     "image": "images/features/noun_3d modeling_1885342.svg"
   }
 ]
