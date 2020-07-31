@@ -1,11 +1,12 @@
 ---
-title: 'Accounting'
+title: 'Многоуровневые Потолки'
 image: '/services/noun_591323.png'
 ---
 
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+Многоуровневые потолки имеют безграничное разнообразие по форме.
+Давая простор своему воображению, потолок можно сделать в правильных
+геометрических формах, сложную геометрию потолка — криволинейный.
+Принимать форму вплоть до различных цветов, животных и птичек.
 
 ## Ne verba patulosque numen vix libet
 
