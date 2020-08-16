@@ -1,36 +1,36 @@
 ---
-title: Services
+title: Расценки на гипсокартонные работы в Киеве
 layout: default
-bodyClass: page-services-list
+bodyClass: page-home
+description: Цены на гипсокартонные работы в Киеве и пригороде. Стоимость монтажа гипсокартонных конструкций
+keywords: прайс лист на гипсокартонные работы, монтаж гипсокартона цена, цены на короба из гипсокартона, стоимость потолки из гипсокартона, перегородки смета, гипсокартонщики расценки
 ---
 
-<div class="intro">
+<div class="intro pb-4">
   <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h1>Services that grow with your business</h1>
-        <p>
-          Our business helps hundreds of customers with their accounting and
-          taxation needs each year.
-        </p>
-      </div>
-    </div>
+    <h1>Цены на услуги</h1>
+    <p>При выборе специалиста будьте осторожны, не гонитесь за самыми дешёвыми расценками на услуги, именно дилетанты занижают <strong>цены на монтаж гипсокартонных конструкций</strong>, так как понимают, что их работа стоит дешево.</p>
   </div>
 </div>
 
-<div class="container pb-6">
+<div class="container">
   <div class="row">
-    {% for service in site.services %}
-    <div class="col-12 col-md-4 mb-1">
-      <div class="service service-summary">
-        <div class="service-content">
-          <h2 class="service-title">
-            <a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a>
-          </h2>
-          {{ service.content | markdownify | strip_html | truncate: 100 }}
-        </div>
-      </div>
+    <div class="col-12 col-md-20">
+      <h4 class="mt-3">Гипсокартонные работы</h4>
+      <table class="table table-lg table-striped">
+        <tr>
+          <th scope="row" class="text-center">Наименование</th>
+          <th scope="row" class="text-center">Ед. изм.</th>
+          <th scope="row" class="text-center">Стоимость (в грн.)</th>
+        </tr>
+        {% for price in site.data.prices %}
+        <tr>
+          <td class="text-center">{{ price.title }}</td>
+          <td class="text-center">{{ price.unit }}</td>
+          <td class="text-center">{{ price.price }}</td>
+        </tr>
+        {% endfor %}
+      </table>
     </div>
-    {% endfor %}
   </div>
 </div>

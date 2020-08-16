@@ -1,0 +1,30 @@
+---
+title: Примеры наших работы по гипсокартону
+layout: default
+bodyClass: page-home
+
+description: Примеры выполнения гипсокартонные работ из портфолио. Фотографии конструкций из гипсокартона
+keywords: гипсокартонные работы пример, монтаж гипсокартона фото, короба из гипсокартона фотография
+---
+
+<div class="intro pb-4">
+  <div class="container">
+    <h1>Примеры работ</h1>
+    <p>Бригада гипсокартонщиков выполнит для Вас монтаж гипсокартонных конструкций любой сложности и конфигурации. Качественно и в установленные сроки.</p>
+  </div>
+</div>
+
+<div class="container pt-5 pb-5">
+  <div class="row justify-content-center">
+    {% for i in (0..20) %}
+    <div class="col-12 col-md-6 col-lg-4 mb-2">
+      <div class="feature">
+        <div class="feature-image"><img src="/images/gallery/{{ i }}.png" /></div>
+      </div>
+    </div>
+    {% endfor %}
+    <div class="col-12 text-center">
+      <a class="button button-primary mt-2" href="{{site.baseurl}}/services">Ознакомиться с ценами</a>
+    </div>
+  </div>
+</div>

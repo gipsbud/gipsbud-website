@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Колонны и короба",
+    "description": "***",
+    "image": "images/services/column.png"
+  },
+  {
+    "title": "Многоуровневые потолки",
+    "description": "***",
+    "image": "images/services/multilevel-ceiling.jpg"
+  },
+  {
+    "title": "Перегородки, фальшстены",
+    "description": "***",
+    "image": "images/services/fakewall.png"
+  },
+  {
+    "title": "Арочные изделия",
+    "description": "***",
+    "image": "images/services/arc.png"
+  },
+  {
+    "title": "Консоли скрытого освещения",
+    "description": "***",
+    "image": "images/services/hidden-light.png"
+  },
+  {
+    "title": "Утепление и шумоизоляция",
+    "description": "***",
+    "image": "images/services/insulation.jpg"
+  }
+]

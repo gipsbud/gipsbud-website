@@ -1,7 +1,7 @@
 .feature {
   height: 100%;
   border: 2px solid #eaeaea;
-  padding: 20px;
+  padding: 2px;
   background-color: #ffffff;
   display: flex;
   align-items: center;
@@ -9,10 +9,8 @@
   text-align: center;
   .feature-image {
     flex: 0 0 auto;
-    width: 80px;
-    height: 80px;
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
     text-align: center;
   }
   img {

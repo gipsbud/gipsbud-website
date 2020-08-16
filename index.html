@@ -1,20 +1,22 @@
 ---
-title: Профессиональные услуги по монтажу гипсокартона
+title: Профессиональные услуги по монтажу гипсокартона в Киеве и области
 layout: default
 bodyClass: page-home
+description: Профессиональные услуги по монтажу гипсокартона - это способ быстро и эффективно осуществить трансформацию помещений
+keywords: гипсокартонные работы, монтаж гипсокартона, гипсокартонщики, работы по гипсокартону, потолки из гипсокартона, укладка гипсокартона, общивка гипсокартоном, гипсокартонные конструкции, монтаж гипсокартонных конструкций, перегородки из гипсокартона
 ---
 
 <div class="intro pb-4">
   <div class="container">
-    <h1>ГипсБуд - услуги по монтажу гипсокартонных конструкций</h1>
-    <p>Бригада гипсокартонщиков выполнит для Вас монтаж гипсокартонных конструкций любой сложности и конфигурации. Качественно и в установленные сроки.</p>
+    <h1>Услуги по монтажу гипсокартонных конструкций</h1>
+    <p>Квалифицированные специалисты выполнят для Вас монтаж гипсокартонных конструкций любой сложности и конфигурации. Качественно и в установленные сроки.</p>
   </div>
 </div>
 
 <div class="container pt-2">
   <div class="call">
     <div class="call-box-top">
-      <div class="call-phone"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
+      <div class="call-phone"><strong>Тел.: </strong> {{ site.data.contact.phone }} </div>
       <div class="call-email"><strong>Email: </strong>
         <a href="mailto:{{ site.data.contact.email }}">
           {{ site.data.contact.email }}
@@ -27,7 +29,10 @@ bodyClass: page-home
   </div>
 </div>
 
-<div class="container pt-5 pb-5 pt-md-7 pb-md-7">
+<div class="container pt-5 pb-5">
+  <p>
+    Мы обладаем большим опытом и знаниями технологии <strong>монтажа гипсокартонных конструкций</strong>, выполняем монтаж любой сложности, а также нестандартные работы, требующие к себе специальных навыков и мастерства. Можем гарантировать  должное качество  выполненных работ, так как уверены в своём профессионализме и дорожим своей репутацией.
+  </p>
   <div class="row justify-content-center">
     <div class="col-12">
       <h2 class="title-3 text-dark mb-4">Наши преимущества:</h2>
@@ -44,25 +49,21 @@ bodyClass: page-home
   </div>
 </div>
 
-<div class="container pt-8 pt-md-10">
-  <div class="row justify-content-start">
+<div class="container pb-5">
+  <div class="row justify-content-center">
     <div class="col-12">
-      <h2 class="title-3 text-dark mb-3">Наши услуги:</h2>
+      <h2 class="title-3 text-dark mb-4">Наши услуги:</h2>
     </div>
-    {% for service in site.services %}
-    <div class="col-12 col-md-4 mb-1">
-      <div class="service service-summary">
-        <div class="service-content">
-          <h2 class="service-title">
-            <a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a>
-          </h2>
-          {{ service.content | markdownify | strip_html | truncate: 100 }}
-        </div>
+    {% for feature in site.data.services-g %}
+    <div class="col-12 col-md-6 col-lg-4 mb-2">
+      <div class="feature">
+        {% if feature.image %}<div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image }}" /></div> {% endif %}
+        <h2 class="feature-title">{{ feature.title }}</h2>
       </div>
     </div>
     {% endfor %}
     <div class="col-12 text-center">
-      <a class="button button-primary mt-2" href="{{site.baseurl}}/services">Посмотреть все услуги</a>
+      <a class="button button-primary mt-2" href="{{site.baseurl}}/services">Ознакомиться с ценами</a>
     </div>
   </div>
 </div>
