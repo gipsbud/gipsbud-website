@@ -3,6 +3,8 @@ exclude: ['README.md']
 permalink: pretty
 title: 'ГипсБуд'
 
+url: "https://gipsbud.pp.ua"
+
 sass:
   style: compact # possible values: nested expanded compact compressed
 
